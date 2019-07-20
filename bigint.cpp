@@ -121,17 +121,3 @@ string mult(string num1 , string num2)
     return clear_left_zeros(sum);
 
 }
-
-int main()
-{
-    string x,y;
-    while(cin>>x)
-    {
-        cin>>y;
-        cout<<mult(x,y)<<endl;
-
-
-    }
-
-    return 0;
-}
