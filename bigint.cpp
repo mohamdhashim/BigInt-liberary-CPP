@@ -1,4 +1,5 @@
 //this liberary i work on it right now;
+//now iam updating performance of multiplication from O(n^2) to O(n*logn)
 #include <iostream>
 #include <string>
 #include <math.h>
@@ -13,7 +14,7 @@ string clear_left_zeros(string n)
             break;
     if(n.size()==i)
         return "0";
-
+tahdith
     return n.substr(i);
 
 }
@@ -62,7 +63,8 @@ string Add (string num1 ,string num2)
 
 }
 
-
+//since n is number of digits.
+//multplication func is O(n^2) but it still OK because its numbers so n hardly hit upove 1000 expected work will in range(50:9000) digits;
 string mult(string num1 , string num2)
 {
     //in this code num2 must be the big number only in size;
