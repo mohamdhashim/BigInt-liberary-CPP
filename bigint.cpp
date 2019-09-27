@@ -1,5 +1,5 @@
 //this liberary i work on it right now;
-//now iam updating performance of multiplication from O(n^2) to O(n*logn)
+//now i'm updating performance of multiplication from O(n^2) to O(n*logn) =====> (n = digits of large number);
 #include <iostream>
 #include <string>
 #include <math.h>
